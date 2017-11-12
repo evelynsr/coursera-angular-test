@@ -1,0 +1,7 @@
+<div ng-repeat="item in $ctrl.items.menu_items">
+		<div class="itemCatego">
+			<p><strong>Name: </strong>{{item.name}}</p>
+			<p><strong>Short name: </strong>{{item.short_name}}</p>
+			<p ng-if="item.description"><strong>Description: </strong>{{item.description}}</p>
+		</div>
+</div>
